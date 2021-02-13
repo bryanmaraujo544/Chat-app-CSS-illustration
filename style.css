@@ -65,7 +65,7 @@ main.main{
     bottom: 7em;
     width: 38em /*550px*/;
     height: 100%;
-    background-image: linear-gradient(to top, var(--LightViolet), var(--LightMagenta));
+    background-image: linear-gradient(15deg, var(--LightViolet) 50%, var(--LightMagenta));
     border-radius: 0 0 300px 300px;
     
 }
@@ -94,6 +94,10 @@ main.main{
     border-radius: 24px 24px 6px 6px;
     margin-bottom: 12px;
     padding: 2em 1em 1em 1em;
+}
+
+.smartphone > .header_smartphone > img.profile{
+    height: 32px;
 }
 
 
@@ -190,9 +194,9 @@ main.main{
     font-weight: 500;
     color: var(--ModerateViolet);
     height: auto;
-    font-size: 0.675em /*10px*/;
+    font-size: 0.6875em /*10px*/;
     margin-bottom:  0.675em /*10px*/;
-    margin-left: 0.5em /*8px*/;
+    margin-left: 0.75em /*8px*/;
     border-radius: 16px 16px 16px 4px;
     width: 50%;
 }
@@ -221,7 +225,7 @@ main.main{
     display: flex;
     justify-content: center;
     border-radius: 16px 16px 4px 16px;
-    font-size: 0.675em /*10px*/;
+    font-size: 0.6875em /*10px*/;
     background-color: white;
     color: var(--DesaturatedDarkViolet);
     transform: translateX(-100%);
@@ -362,17 +366,17 @@ main.main{
 
 .title_second{
     font-size: 3em /*54px*/;
-    margin-bottom: 0.25em;
+    margin-bottom: 0.5em;
     color: var(--VeryDarkDesaturatedViolet);
     font-weight: 500;
 }
 
 .subtitle{
-    width: 75%;
-    font-size: 1.125em /*18px*/;
+    width: 60%;
+    font-size: 1.225em /*18px*/;
     font-weight: 400;
     color: var(--DarkGrayishViolet);
-    margin-top: 1em;
+    margin-top: 0em;
     max-width: auto;
 }
 
