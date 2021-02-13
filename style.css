@@ -92,6 +92,7 @@ main.main{
     height: 5em /*80px*/;
     background-image: linear-gradient(to right, var(--LightViolet), var(--LightMagenta));
     border-radius: 24px 24px 6px 6px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
     margin-bottom: 12px;
     padding: 2em 1em 1em 1em;
 }
@@ -189,12 +190,12 @@ main.main{
 .left_message{
     background-color: rgba(0, 0, 0, 0.08);
     box-sizing: content-box;
-    padding: 0.5em /*8px*/ 1em /*16px*/;
+    padding: 0.75em /*8px*/ 1em /*16px*/;
     font-weight: 500;
     color: var(--ModerateViolet);
     height: auto;
     font-size: 0.625em /*10px*/;
-    margin-bottom:  0.675em /*10px*/;
+    margin-bottom:  0.75em /*10px*/;
     margin-left: 0.75em /*8px*/;
     border-radius: 12px 12px 12px 4px;
     width: 50%;
@@ -219,7 +220,7 @@ main.main{
     left: calc(100% - 1em);
     width: 65%;
    
-    padding: 0.5em /*8px*/  1em /*16px*/;
+    padding: 0.75em /*8px*/  1em /*16px*/;
     margin-top: 0.75em;
     display: flex;
     justify-content: center;
@@ -233,7 +234,7 @@ main.main{
 .short{
     display: inline-block;
     width: auto;
-    margin-bottom: 1em;
+    margin-bottom: 2em;
 }
 
 
@@ -249,7 +250,7 @@ main.main{
     border-radius: 12px 12px 12px 4px;
     display: flex;
     align-items: center;
-    padding: 0.75em;
+    padding: 1em;
     color: white;
 }
 .left_message_special > span:first-child{
