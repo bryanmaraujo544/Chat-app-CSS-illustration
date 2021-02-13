@@ -100,7 +100,6 @@ main.main{
     height: 32px;
 }
 
-
 .smartphone > .header_smartphone > span{
     width: 1em;
     height: 1.5em /*24px*/;
@@ -143,14 +142,14 @@ main.main{
     margin-left: 0.5em;
 }
 .smartphone > .header_smartphone > .name_status > .name{
-    font-size: 1em;
+    font-size: 0.9em;
     font-weight: 500;
     margin-bottom: -0.25px /* 4px */;
     
 }
 .smartphone > .header_smartphone > .name_status > .status{
     font-size: 0.75em /*12px*/;
-    font-weight: 500;
+    font-weight: 400;
     color: var(--PaleViolet);
 }
 .smartphone > .header_smartphone::before{
@@ -197,7 +196,7 @@ main.main{
     font-size: 0.625em /*10px*/;
     margin-bottom:  0.675em /*10px*/;
     margin-left: 0.75em /*8px*/;
-    border-radius: 16px 16px 16px 4px;
+    border-radius: 12px 12px 12px 4px;
     width: 50%;
 }
 
@@ -211,7 +210,7 @@ main.main{
 .images_dogs > img{
     height: 3em /*48px*/;
     border-radius: 14px;
-    margin-right: 1em;
+    margin-right: 0.5em;
 
 }
 
@@ -224,7 +223,7 @@ main.main{
     margin-top: 0.75em;
     display: flex;
     justify-content: center;
-    border-radius: 16px 16px 4px 16px;
+    border-radius: 12px 12px 4px 12px;
     font-size: 0.625em /*10px*/;
     background-color: white;
     color: var(--DesaturatedDarkViolet);
@@ -247,7 +246,7 @@ main.main{
     width: 75%;
     margin-bottom: 1em;
     margin-left: 0.5em;
-    border-radius: 16px 16px 16px 4px;
+    border-radius: 12px 12px 12px 4px;
     display: flex;
     align-items: center;
     padding: 0.75em;
@@ -278,7 +277,7 @@ main.main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height:  3em /* 48px */;
+    height:  2.5em /* 32px */;
     padding: 0.5em;
     margin: auto;
     background-color: white;
